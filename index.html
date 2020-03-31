@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<form action="" method = "get">
+  <html lang="en">
+    <head>
+      <title>Static Template</title>
+    </head>
+    <body>
+      <h1>
+        My Application Form
+      </h1>
+
+      <label for="name">Name: </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="First and Last Name"
+        value=""
+      />
+      <br />
+      <label for="email">Email: </label>
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="test@test.com"
+        value=""
+      />
+      <br />
+      <label for="website">Website: </label>
+      <input
+        type="text"
+        name="website"
+        id="website"
+        placeholder="www.test.com"
+        value=""
+      />
+      <br />
+      <label for="pet">Favorite Pet: </label>
+      <select id="pet" name="pet">
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="mouse">Mouse</option>
+        <option value="fish">Fish</option>
+        <option value="bird">Bird</option>
+      </select>
+      <br />
+      <label for="desc">Description: </label>
+      <textarea
+        name="desc"
+        id="desc"
+        placeholder="Comments"
+        value=""
+      ></textarea>
+      <br />
+      <label for="agree">Agree to Terms: </label>
+      <input type="checkbox" name="agree" id="agree" value="yes" />
+      <br />
+      <label for="contactMethod">Preferred Contact Method: </label>
+      <input type="radio" name="group1" id="contactMethod" value="email">Email</input>
+      <input type="radio" name="group1" id="contactMethod" value="phone">Phone</input>
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+    </body>
+  </html>
+</form>
